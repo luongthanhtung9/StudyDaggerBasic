@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.studydaggerbasic">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".dipattern.facade_pattern.FacadePatternActivity"></activity>
+        <activity android:name=".dipattern.lesson_nine_singleton.LessonNineActivity" />
+        <activity android:name=".dipattern.lesson_eight_method_injection.LessonEightActivity" />
+        <activity android:name=".dipattern.lesson_seven_named_param.LessonSevenActivity" />
+        <activity android:name=".dipattern.lesson_six_component_builder_for_runtime_parameters.LessonSixActivity" />
+        <activity android:name=".dipattern.lesson_five_runtime_dependency.LessonFiveActivity" />
+        <activity android:name=".dipattern.lesson_four_binds.LessonFourActivity" />
+        <activity android:name=".dipattern.lesson_three_field_injection.LessonThreeActivity" />
+        <activity android:name=".dipattern.lesson_two_constructor_injection_with_module.LessonTwoActivity" />
+        <activity android:name=".dipattern.lesson_one_constructor_injection.LessonOneActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
