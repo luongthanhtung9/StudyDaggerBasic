@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             arrButton[i] = findViewById(arrId[i]);
             arrButton[i].setOnClickListener(this);
         }
+		//add comment
     }
 
     @Override
